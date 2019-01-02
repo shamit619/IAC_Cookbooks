@@ -59,3 +59,4 @@ end
 
 include_recipe 'jenkins-demo::security'
 include_recipe 'jenkins-demo::backup'
+include_recipe 'jenkins-demo::conf_test_job'
