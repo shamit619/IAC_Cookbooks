@@ -5,7 +5,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-default['jenkins_demo']['jenkins_port'] = 8080
+default['jenkins_demo']['jenkins_port'] = 18080
 
 # TODO: speed up the deployment process
 default['jenkins_demo']['jenkins_plugins'] = {
