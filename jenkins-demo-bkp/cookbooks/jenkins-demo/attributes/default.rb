@@ -22,8 +22,8 @@ default['jenkins_demo']['jenkins_plugins'] = {
 }
 
 ########################################
-default['jenkins_demo']['default_username'] = 'devops.user'
-default['jenkins_demo']['default_password'] = 'devops123'
+default['jenkins_demo']['default_username'] = 'devops'
+default['jenkins_demo']['default_password'] = 'devops'
 
 # TODO: improve the security
 default['jenkins_demo']['chef_private_key'] = \
