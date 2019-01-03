@@ -34,7 +34,7 @@ default['chef_client']['config'] = {
 default['chef_client']['config']['client_fork'] = true
 
 default['chef_client']['log_file']    = 'client.log'
-default['chef_client']['interval']    = '120'
+default['chef_client']['interval']    = '900'
 default['chef_client']['splay']       = '60'
 default['chef_client']['conf_dir']    = '/etc/chef'
 default['chef_client']['bin']         = '/usr/bin/chef-client'
