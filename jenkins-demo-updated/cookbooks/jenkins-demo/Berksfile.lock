@@ -1,0 +1,27 @@
+DEPENDENCIES
+  jenkins-demo
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.6.1)
+  compat_resource (12.19.1)
+  dpkg_autostart (0.2.0)
+  homebrew (5.0.8)
+  java (3.2.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  jenkins (5.0.4)
+    compat_resource (>= 12.16.3)
+    dpkg_autostart (>= 0.0.0)
+    runit (>= 1.7)
+  jenkins-demo (0.0.1)
+    apt (= 2.6.1)
+    java (>= 0.0.0)
+    jenkins (= 5.0.4)
+  packagecloud (1.0.1)
+  runit (4.3.1)
+    packagecloud (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  windows (5.2.2)
+  yum-epel (3.3.0)
