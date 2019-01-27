@@ -7,7 +7,7 @@
 #
 
 # slack notification
-default['jenkins_demo']['slack_teamdomain'] = ''
+default['jenkins_demo']['slack_teamdomain'] = 'DevOps'
 default['jenkins_demo']['slack_authtoken'] = ''
-default['jenkins_demo']['slack_buildserverurl'] = ''
-default['jenkins_demo']['slack_room'] = ''
+default['jenkins_demo']['slack_buildserverurl'] = 'https://devops-a7j3270.slack.com'
+default['jenkins_demo']['slack_room'] = 'iac'
