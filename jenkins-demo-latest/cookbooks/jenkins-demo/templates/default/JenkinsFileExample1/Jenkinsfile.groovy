@@ -2,19 +2,16 @@
 
 node('master') {
     try {
-        stage('clone') {
-            checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/shamit619/Application.git']]])
-        }
-        stage('build and package') {
-            sh "mvn clean package"
+        stage('build') {
+            sh "echo dummy build action"
         }
 
-        stage('docker build') {
-            sh "docker build -t application:latest"
+        stage('test') {
+            sh "echo dummy test action"
         }
 
         stage('deploy') {
-            sh "docker run -p 49160:8080 -d application:latest"
+            sh "echo dummy deploy action"
         }
     } catch(error) {
         throw error
