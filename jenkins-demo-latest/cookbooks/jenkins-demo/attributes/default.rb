@@ -9,7 +9,6 @@ default['jenkins_demo']['jenkins_port'] = 18080
 
 # TODO: speed up the deployment process
 default['jenkins_demo']['jenkins_plugins'] = {
-  'icon-shim' => '2.0.3',
   'credentials' => '2.1.16',
   'thinBackup' => '1.9',
   # 'command-launcher' => '1.0',
