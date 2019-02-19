@@ -5,7 +5,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-default['jenkins_demo']['jenkins_port'] = 18080
+default['jenkins_demo']['jenkins_port'] = 8080
 
 # TODO: speed up the deployment process
 default['jenkins_demo']['jenkins_plugins'] = {
@@ -22,8 +22,8 @@ default['jenkins_demo']['jenkins_plugins'] = {
 }
 
 ########################################
-default['jenkins_demo']['default_username'] = 'jenkins.user1'
-default['jenkins_demo']['default_password'] = 'jenkins123'
+default['jenkins_demo']['default_username'] = ''
+default['jenkins_demo']['default_password'] = ''
 
 # TODO: improve the security
 default['jenkins_demo']['chef_private_key'] = \
